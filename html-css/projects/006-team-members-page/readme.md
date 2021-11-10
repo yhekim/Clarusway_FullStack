@@ -1,41 +1,38 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-002 : To-Do App (JS-02)
+# Project-006 : Team Members Page (HC-006)
 
 ## Description
-Project aims to create a basic To-Do-App.
+Project aims to create your development team web page.
 
 ## Problem Statement
 
-- Your company has recently started on a project that aims to create a basic to do app game. So you and your colleagues have started to work on the project.
+- Your company is updating its website. They ask you to make your development team page.
 
 ## Project Skeleton 
 
 ```
-002-To-Do App (folder)
+006-team-members-page(folder)
 |
-|----readme.md         # Given to the students (Definition of the project)          
+|----readme.md         # Given to the students (Definition of the project)
+|----/images # Contains development team members photos         
 |----solution
         |----index.html  
         |----style.css   
-        |----index.js
+        |----app.js
 ```
 
 ## Expected Outcome
 
-![Project 002 Snapshot](project_002_1.gif)
-![Project 002 Snapshot](project_002_2.gif)
-![Project 002 Snapshot](project_002_3.gif)
-![Project 002 Snapshot](project_002_4.gif)
+![Project 006 Snapshot](Project_006_.png)
 
 ## Objective
 
-- Make a To-Do App as in the sample designs or create your own design.
+Build a responsive web page similar to [Project 006 Snapshot](Project_006_.png)
+Add a theme button to switch your page theme day or night.
 
-- Desired features: Create,Done / Undone and Delete.
-
-- Optional Features : Counter for tasks
+- ![Project 006 Snapshot](project.gif)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -58,9 +55,9 @@ Project aims to create a basic To-Do-App.
 
 - Step 2: Create project folder for local public repo on your pc
 
-- Step 3: Create JS code for To-Do App 
+- Step 3: Team Members Web Page
 
->>Part-1 HTML Structure
+>Part-1 HTML Structure
 
 	- Creat structure of the HTML5
 	- Give name of your project (title)
@@ -68,18 +65,23 @@ Project aims to create a basic To-Do-App.
 
 >>Part-2 CSS Structure
 
-	- Set a background
+    - You can apply all the technologies you learn. (Sass, Flexbox, Grid, Bootstrap)
+	- Set a background and define font color
 	- Set container background color and margin
 	- Define others color-size-padding etc...
 
->Part-3 JS Structure
+>>>Part-3 JS Structure
 
-	- Create code for To-Do App : User should create, delete  and mark tasks as them done or undone
+	- Create code for day / night theme switch
 	
 - Step 4: Push your application into your own public repo on Github
 
 - Step 5: Deploy your application on Github template to showcase your app within your team.
 
+## Notes
 
-<center> ⌛💪 Happy Coding  ✍ </center>
+- Pay attention to the direction of the texts in the picture.
+- Your page should be responsive web.
+
+<center> ⌛ Happy Coding  ✍ </center>
 
