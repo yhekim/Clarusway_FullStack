@@ -9,3 +9,7 @@ Javascript Workshop contains hands-on trainings and projects.
 - [Calculator (JS-03)](./003%20-%20Ios-Calculator%20(JS-03)/README.md)
 
 - [Checkout Page (JS-04)](./004-%20Checkout_Page%20(JS-04)/README.md)
+
+- [Movie Seat Booking Page (JS-05)](./005%20-%20Movie_Seat_Booking_App(JS-05)/README.md)
+
+- [Weather Condition App (JS-06)](./006%20-%20Weather_Condition_App(JS-06)/README.md)

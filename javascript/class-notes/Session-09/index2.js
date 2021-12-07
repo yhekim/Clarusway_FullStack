@@ -1,29 +1,28 @@
 console.log('» index2.js is running');
 
-/*let map = new Map();
+let map = new Map();
 
 map.set('1', 'string 1');
 map.set(1, 'number 1');
 map.set(true, 'doğrudur');
 map.set(1, 'numnumnum');
 
-console.log(map);
-console.log(map.get('1'));
-console.log(map.has('3'));
-*/
+// console.log(map);
+// console.log(map.get('1'));
+// console.log(map.has('3'));
 
-let wrongMap = new Map();
-wrongMap['bla'] = 'blaaa';
-wrongMap['blazzz'] = 'blaaazzzz';
+// let wrongMap = new Map();
+// wrongMap['bla'] = 'blaaa';
+// wrongMap['blazzz'] = 'blaaazzzz';
 
-console.log(wrongMap);
-console.log(wrongMap.has('bla'));
+// console.log(wrongMap);
+// console.log(wrongMap.has('bla'));
 
-map.set('add', function(x, y) {
-    return x + y;
+map.set('add', function (x, y) {
+  return x + y;
 });
 
-console.log(map.get('add')(5, 6));
+// console.log(map.get('add')(5, 6));
 
 // let john = { firstName: 'John' };
 // let mike = { firstName: 'Mike' };

@@ -1,7 +1,6 @@
 console.log('» index.js is running');
 
-/*
-let arr = [41, 2, 333, 4, 55, 48, 26, 88];
+/* let arr = [41, 2, 333, 4, 55, 48, 26, 88];
 
 console.log(arr[0]);
 console.log(arr[arr.length - 1]);
@@ -12,67 +11,41 @@ console.log('third => ', third);
 console.log(others);
 const [last, ...other2] = arr.reverse();
 
-console.log('last..', last);
+console.log('last..', last); 
 
 let studentData = ['name', 'lastname', [78, 68, 95]];
 studentData[2][1];
 let [, , grades] = studentData;
 grades[1];
-var dizi;
-const people = [
-    'greg,male,36',
-    'susan,female,18',
-    'john,male,25',
-    'anna,female,25',
-    'ayşe,female,42',
-    'emine,female,62'
-];
-var yas = 1;
-for (var i = 0; i < people.length; i++) {
-    var dizi = people[i].split(",");
 
-    if (dizi[1] === "female") {
-
-        if (dizi[2] >= yas) {
-            var yas = dizi[2];
-
-        }
-
-
-    }
-    console.log(yas)
-
-
-}*/
-
-
+*/
 
 // destructuring objects
 const hotel = {
-    name: 'Hotel Clarusway',
-    categories: ['Spa', 'Swimming Pool', 'Resort'],
-    options: ['just stay', 'free breakfast', 'all inclusive'],
-    rooms: ['2-bed', '3-bed', '4-bed'],
-    receptionHours: {
-        mon: {
-            open: 8,
-            close: 22,
-        },
-        fri: {
-            open: 9,
-            close: 21,
-        },
-        sat: {
-            open: 10,
-            close: 20,
-        },
+  name: 'Hotel Clarusway',
+  categories: ['Spa', 'Swimming Pool', 'Resort'],
+  options: ['just stay', 'free breakfast', 'all inclusive'],
+  rooms: ['2-bed', '3-bed', '4-bed'],
+  receptionHours: {
+    mon: {
+      open: 8,
+      close: 22,
     },
+    fri: {
+      open: 9,
+      close: 21,
+    },
+    sat: {
+      open: 10,
+      close: 20,
+    },
+  },
 
-    book: function({ arrival, departure, optionIndex = 0, roomIndex = 0 }) {
-        console.log(
-            `${this.rooms[roomIndex]} is booked with ${this.options[optionIndex]} between ${arrival}-${departure}`
-        );
-    },
+  book: function ({ arrival, departure, optionIndex = 0, roomIndex = 0 }) {
+    console.log(
+      `${this.rooms[roomIndex]} is booked with ${this.options[optionIndex]} between ${arrival}-${departure}`
+    );
+  },
 };
 
 /* console.log(`hotel.categories`, hotel.categories);
@@ -126,9 +99,9 @@ console.log(hotel.receptionHours.fri.open);
 // console.log(hotel.receptionHours.tue.open);
 
 if (hotel.receptionHours.tue) {
-    console.log(hotel.receptionHours.tue.open);
+  console.log(hotel.receptionHours.tue.open);
 } else {
-    console.log('no such property....');
+  console.log('no such property....');
 }
 
-//console.log(hotel.receptionHours.tue ? .open);
+console.log(hotel.receptionHours.tue?.open);
